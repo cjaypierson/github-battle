@@ -4,7 +4,7 @@ var Router = ReactRouter.Router;
 var Route = ReactRouter.Route;
 var IndexRoute = ReactRouter.IndexRoute;
 var Main = require('../components/Main');
-var Home = require('../compontents/Home');
+var Home = require('../components/Home');
 
 var routes = (
 	<Router>
@@ -14,4 +14,4 @@ var routes = (
 	</Router>
 );
 
-module.exports routes;
+module.exports = routes;
